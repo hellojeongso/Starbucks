@@ -3,6 +3,7 @@
 html {
   font-size: 16px;
 }
+
 body {
   font-size: 1rem;
 }
@@ -18,20 +19,25 @@ header > div {
 header > div h1 {
   padding: 0.8125rem 0 0.75rem 0.625rem;
 }
+
 header h1 img {
   width: 2.8125rem;
 }
+
 header > div nav {
   display: none;
 }
+
 header > div .spot {
   right: 4.5rem;
   top: 1rem;
 }
+
 header > div .spot i {
   display: inline-block;
   font-size: 2.5rem;
 }
+
 header .total {
   display: inline-block;
   position: absolute;
@@ -39,22 +45,56 @@ header .total {
   top: 1rem;
   font-size: 2.5rem;
 }
+
 header > div .spot li a {
   padding: 0;
 }
+
 header > div .spot li ~ li {
   padding-left: 1.6875rem;
 }
+
 header > div .spot li ~ li a:after {
   display: none;
 }
+
 header > div .spot li:nth-child(2),
 header > div .spot li:nth-child(3),
 header > div .spot li:nth-child(5) {
   display: none;
 }
+
 header .total span,
 header > div .spot li span {
   position: absolute;
   left: -40000%;
+}
+
+/* Visual */
+
+.visual > div div img {
+  width: 100%;
+}
+
+.visual > div div.img1 {
+  min-width: 12rem;
+  width: 40%;
+  left: 1rem;
+}
+
+.visual > div div.img2 {
+  min-width: 12rem;
+  width: 50%;
+  top: 10.7rem;
+}
+
+.visual > div div.img3 {
+  min-width: 12rem;
+  width: 41%;
+}
+
+.visual > div div.img4 {
+  left: 54%;
+  min-width: 12rem;
+  width: 37%;
 }
