@@ -4,7 +4,6 @@
 * {
   outline: 0 !important;
 }
-
 html,
 body,
 h1,
@@ -51,18 +50,15 @@ figcaption {
   margin: 0;
   padding: 0;
 }
-
 html,
 body {
   width: 100%;
 }
-
 html {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
 body {
   width: 100%;
   background: #fff;
@@ -71,7 +67,6 @@ body {
   word-wrap: break-word;
   word-break: break-all;
 }
-
 body,
 input,
 select,
@@ -81,13 +76,11 @@ button {
   font-size: 12px;
   color: #727272;
 }
-
 ul,
 ol,
 li {
   list-style: none;
 }
-
 table {
   width: 100%;
   border-spacing: 0;
