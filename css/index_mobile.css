@@ -134,3 +134,29 @@ header > div .spot li span {
 .gift_btn {
   font-size: 0.9rem;
 }
+
+/* Footer-menu */
+.footer_menu {
+  flex-direction: column;
+  padding: 0;
+}
+
+.footer_menu a {
+  color: #d8cdc5;
+  font-size: 0.8rem;
+  font-weight: 800;
+  padding-right: 0rem;
+}
+
+.footer_menu li {
+  background: #645952;
+  padding: 0.7rem;
+}
+
+.footer_menu li:nth-child(1) {
+  background: #554c46;
+}
+
+.footer_menu .last_title {
+  color: #fff;
+}

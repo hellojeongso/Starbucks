@@ -297,6 +297,7 @@ footer {
 
 .copyright_ul {
   display: flex;
+  flex-wrap: wrap;
   padding: 2rem 0;
 }
 

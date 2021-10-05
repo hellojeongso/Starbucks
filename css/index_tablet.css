@@ -48,3 +48,18 @@ header > div h1 {
 .rewards_logo {
   padding-top: 6.2rem;
 }
+
+/* footer_menu */
+.last_logo {
+  display: none;
+}
+
+.footer_menu {
+  width: 100%;
+  justify-content: center;
+  margin: 0;
+}
+
+.copyright {
+  width: 100%;
+}
