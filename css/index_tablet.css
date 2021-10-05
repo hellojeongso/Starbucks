@@ -63,3 +63,7 @@ header > div h1 {
 .copyright {
   width: 100%;
 }
+
+.copyright_ul {
+  justify-content: center;
+}
