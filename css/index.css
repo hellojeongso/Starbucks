@@ -279,3 +279,53 @@ header .total {
   background: #222;
   color: #fff;
 }
+
+/* Footer-menu */
+footer {
+  width: 100%;
+  background: #2c2a29;
+}
+
+.footer_menu {
+  width: 54.5rem;
+  margin: 0 auto;
+  display: flex;
+  padding: 2.85rem 0;
+}
+
+.footer_menu a {
+  color: #fff;
+  font-size: 0.65rem;
+  padding-right: 4.3rem;
+}
+
+.footer_menu a:hover {
+  text-decoration: underline;
+}
+
+.last_title {
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+/* Footer-copyright */
+.copyright {
+  width: 54.5rem;
+  margin: 0 auto;
+}
+
+.copyright_ul {
+  display: flex;
+  padding: 2rem 0;
+}
+
+.copyright a {
+  color: #fff;
+  font-size: 0.52rem;
+  font-weight: 600;
+  padding-right: 2rem;
+}
+
+#copy_title {
+  color: #00b050;
+}
