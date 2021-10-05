@@ -102,38 +102,35 @@ header > div .spot li span {
 }
 
 /* Reward */
-
-.rewards_logo {
-  width: 24%;
-  min-width: 12rem;
-  flex: 1;
+.rewards-2 {
+  flex-direction: column;
+  align-items: center;
 }
 
-/*
-.rewards .info p {
+.rewards_logo {
+  padding-top: 0;
+}
+
+.info {
+  padding: 2rem 2rem;
+  background-size: cover;
+}
+
+.rewards_logo img {
   display: none;
 }
 
-*/
-
-.rewards .info {
-  padding: 1rem 0 0 16rem;
-  height: 16rem;
+.info span {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
 }
 
-.rewards .left span {
-  z-index: 0;
+.info p {
+  font-size: 0.8rem;
 }
 
-.rewards .btm .btn {
-  width: 7rem;
-}
-
-.rewards .btm {
-  clear: both;
-  padding: 0.5rem 0 0;
-}
-
-.rewards .info span {
-  font-size: 1rem;
+.join_btn,
+.login_btn,
+.gift_btn {
+  font-size: 0.9rem;
 }
