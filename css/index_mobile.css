@@ -8,6 +8,7 @@ body {
   font-size: 1rem;
 }
 
+/* Header */
 header {
   border: none;
 }
@@ -97,4 +98,28 @@ header > div .spot li span {
   left: 54%;
   min-width: 12rem;
   width: 37%;
+}
+
+/* Reward */
+
+.rewards .info p {
+  display: none;
+}
+
+.rewards .info {
+  padding: 4rem 0 0 17rem;
+  height: 16.75rem;
+}
+
+.rewards .left span {
+  z-index: 0;
+}
+
+.rewards .btm .btn {
+  width: 8rem;
+}
+
+.rewards .btm {
+  clear: both;
+  padding: 0.5rem 0 0;
 }
