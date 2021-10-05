@@ -25,46 +25,26 @@ header > div h1 {
 /* Reward */
 .rewards > div {
   width: 100%;
+  justify-content: center;
 }
 
-/*
-.rewards h2 {
-  height: 16.75rem;
-  background-position: right bottom;
-  background-size: auto 100%;
+.info-div {
+  flex-direction: column;
 }
 
-.rewards h2 span {
-  vertical-align: top;
-  padding: 5.4rem 0 0;
+.btm {
+  flex-direction: column;
 }
-*/
+
+.right {
+  margin-top: 0.5rem;
+  padding-left: 0;
+}
+
+.gift_btn {
+  margin-left: 0;
+}
 
 .rewards_logo {
-  top: 6.5rem;
-  padding-left: 1.5rem;
-}
-.rewards .info {
-  padding: 1rem 0 0 17rem;
-  height: 16.75rem;
-}
-
-.rewards .left {
-  float: none;
-}
-
-.rewards .right {
-  float: none;
-}
-
-.rewards .top_btn {
-  padding: 0.75rem 0;
-}
-
-.rewards .btm {
-  padding: 1.4rem 0 0;
-}
-
-.rewards .btm .right {
-  padding: 0.7rem 0 0;
+  padding-top: 6.2rem;
 }

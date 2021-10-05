@@ -258,6 +258,7 @@ header .total {
 .join_btn {
   background: #222;
   color: #fff;
+  margin-right: 0.2rem;
 }
 
 /* Footer-menu */
