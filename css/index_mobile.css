@@ -92,23 +92,33 @@ header > div .spot li span {
 .visual > div div.img3 {
   min-width: 12rem;
   width: 41%;
+  left: 48%;
 }
 
 .visual > div div.img4 {
-  left: 52%;
+  left: 47%;
   min-width: 12rem;
   width: 37%;
 }
 
 /* Reward */
 
+.rewards_logo {
+  width: 24%;
+  min-width: 12rem;
+  flex: 1;
+}
+
+/*
 .rewards .info p {
   display: none;
 }
 
+*/
+
 .rewards .info {
-  padding: 4rem 0 0 17rem;
-  height: 16.75rem;
+  padding: 1rem 0 0 16rem;
+  height: 16rem;
 }
 
 .rewards .left span {
@@ -116,10 +126,14 @@ header > div .spot li span {
 }
 
 .rewards .btm .btn {
-  width: 8rem;
+  width: 7rem;
 }
 
 .rewards .btm {
   clear: both;
   padding: 0.5rem 0 0;
+}
+
+.rewards .info span {
+  font-size: 1rem;
 }
